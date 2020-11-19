@@ -1,0 +1,51 @@
+
+main {display: flex;}
+h1 {color: #fff; font-family: Arial, Helvetica, sans-serif; font-size: 18px; text-align: center;}
+h3 {color: #fff; font-family: Arial, Helvetica, sans-serif; font-size: 14px;}
+
+body {
+  background-image: url('https://cdn.wallpapersafari.com/78/98/5R2EL3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#home {
+    position: relative;
+
+}
+
+nav {
+    display: table;
+    background-color: black;
+    margin-left: -20px;
+    margin-top: 20px;
+
+}
+
+li {
+    display: table-cell;
+    text-align: center;
+    box-sizing: border-box;
+    border: #fff 1px solid;
+    width: 100vw;
+}
+
+#social {
+    position: fixed;
+    top: 2%;
+    left: 2%;
+    display: inline-block;
+}
+
+#action {
+    position: fixed;
+    top: 2%;
+    right: 2%;
+}
+
+#announcement {
+    border: solid 2px darkgray;
+    background-color: grey;
+    width: 100vw;
+    text-align: center;
+}
